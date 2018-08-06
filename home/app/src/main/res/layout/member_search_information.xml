@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="105dp"
+        android:layout_weight="0.04">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/memberViewPicPager"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:id="@+id/memberTipsBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="36dp"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/memberTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        app:tabBackground="@drawable/selected"
+        app:tabIndicatorColor="?attr/colorButtonNormal"
+        app:tabIndicatorHeight="5dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@android:color/background_light"
+        app:tabTextColor="@color/colorPrimary" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/memberViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_weight="0.21">
+    </android.support.v4.view.ViewPager>
+
+
+</LinearLayout>

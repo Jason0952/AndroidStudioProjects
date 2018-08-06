@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/promotionsDialogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10sp"
+                android:text="@string/promotion_name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30sp"
+                android:paddingRight="20sp"
+                android:text="@string/promotion_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1sp"
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.71" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp"
+                android:paddingTop="5sp"
+                android:text="@string/promotion_dayline"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_weight="0.21">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="161dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30sp"
+                    android:paddingRight="20sp"
+                    android:paddingTop="10sp"
+                    android:text="TextView" />
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/promotion_to"
+                    android:paddingTop="10sp" />
+
+
+            <TextView
+                style="?textContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TextView"
+                android:paddingTop="10sp"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp" />
+            </LinearLayout>
+
+            <TextView
+                style="?textContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.51"
+                android:paddingLeft="30sp"
+                android:paddingRight="50sp"
+                android:paddingTop="5sp"
+                android:text="TextView" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3sp"
+                android:text=""
+                android:textSize="18sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            android:paddingLeft="30sp"
+            android:paddingRight="30sp"
+            android:weightSum="1">
+
+            <TextView
+                style="?textNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/promotion_note"
+                android:layout_weight="0.46" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="85sp"
+            android:weightSum="1">
+
+            <Button
+                style="?textContent"
+                android:id="@+id/getPromotions_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.38"
+                android:text="@string/promotion_take"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

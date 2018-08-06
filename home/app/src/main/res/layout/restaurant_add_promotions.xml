@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:paddingLeft="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                style="?textTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5sp"
+                android:text="@string/promotion_create" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="25sp"
+                android:paddingTop="12sp"
+                android:text="@string/promotion_rescontent" />
+
+            <TextView
+                style="?textNote"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="25sp"
+                android:paddingTop="12sp"
+                android:text="@string/promotion_point" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:gravity="left"
+            android:paddingLeft="30sp"
+            android:paddingTop="5sp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageButton
+                android:id="@+id/promotionimg1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@android:drawable/ic_menu_add"
+                android:layout_weight="0.32" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/enterpromotioncontent"
+                android:layout_width="320dp"
+                android:layout_height="100dp"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:paddingLeft="28sp"
+                android:paddingRight="8sp"
+                android:paddingTop="10sp"
+                android:text="@string/promotion_res_dayline"/>
+
+        <LinearLayout
+            android:layout_width="365dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="365dp"
+                android:layout_height="62dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:paddingLeft="3sp"
+                    android:paddingRight="8sp"
+                    android:paddingTop="5sp"
+                    android:text="@string/promotion_res_startday"/>
+
+                <EditText
+                    android:id="@+id/enterstartdate"
+                    android:layout_width="195dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.12"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="365dp"
+                android:layout_height="81dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:paddingLeft="3sp"
+                    android:paddingRight="8sp"
+                    android:paddingTop="5sp"
+                    android:text="@string/promotion_res_endday" />
+
+
+            <EditText
+                android:id="@+id/enterdateline"
+                android:layout_width="195dp"
+                android:layout_height="45dp"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_weight="0.12" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorButtonNormal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.77"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <Button
+                style="?textContent"
+                android:id="@+id/release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/promotion_res_release" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

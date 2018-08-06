@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        style="?textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="@string/member_register"
+        android:textColor="#303f9f" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_name" />
+
+                <EditText
+                    android:id="@+id/entermembername"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_nickname" />
+
+                <EditText
+                    android:id="@+id/enternickname"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_account"/>
+
+                <EditText
+                    android:id="@+id/entermemberaccout"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_password" />
+
+                <EditText
+                    android:id="@+id/entermemberpassword"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:inputType="textPassword"
+                    android:ems="10"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_confirm" />
+
+                <EditText
+                    android:id="@+id/entermakesurememberpassword"
+                    android:layout_width="259dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_birthday" />
+
+                <Button
+                    android:id="@+id/enterbirthday"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_cellphone" />
+
+                <EditText
+                    android:id="@+id/entermemberphone"
+                    android:layout_width="295dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    style="?textContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/member_register_email" />
+
+                <EditText
+                    android:id="@+id/entermemberemail"
+                    android:layout_width="259dp"
+                    android:layout_height="45dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="date"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    style="?textContent"
+                    android:id="@+id/membersignin"
+                    android:layout_width="333dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/member_register_btn"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>

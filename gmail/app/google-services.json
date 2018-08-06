@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "153940633811",
+    "firebase_url": "https://account-8c0a5.firebaseio.com",
+    "project_id": "account-8c0a5",
+    "storage_bucket": "account-8c0a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153940633811:android:2bd3ec17d5a38315",
+        "android_client_info": {
+          "package_name": "com.gmail.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153940633811-8mcqck9mn2rgf9n6r04kb2k5c38o71f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVS2NX2bQVbvCtsX6BgeBRO00nEukba6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153940633811:android:5292754398331d46",
+        "android_client_info": {
+          "package_name": "com.example.pc.gmail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153940633811-3r57at7oovudijd35n1shkqs1du0jfe6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pc.gmail",
+            "certificate_hash": "5cb12780f954b7696426b3927d7a2ee9d5d21901"
+          }
+        },
+        {
+          "client_id": "153940633811-8mcqck9mn2rgf9n6r04kb2k5c38o71f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVS2NX2bQVbvCtsX6BgeBRO00nEukba6k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153940633811-8mcqck9mn2rgf9n6r04kb2k5c38o71f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

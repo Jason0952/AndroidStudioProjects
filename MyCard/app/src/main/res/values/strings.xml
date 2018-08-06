@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MyCard</string>
+    <string name="choose1">第一</string>
+    <string name="choose2">第二</string>
+    <string name="choose3">第三</string>
+    <string name="choose4">第四</string>
+    <string name="choose5">第五</string>
+    <string name="choose6">第六</string>
+    <string name="choose7">第七</string>
+    <string name="choose8">第八</string>
+    <string name="choose9">第九</string>
+    <string name="choose10">第十</string>
+    <string name="choose11">第十一</string>
+    <string name="choose12">第十二</string>
+    <string name="choose13">第十三</string>
+    <string name="choose14">第十四</string>
+    <string name="choose15">第十五</string>
+    <string name="choose16">第十六</string>
+    <string name="choose17">第十七</string>
+    <string name="choose18">第十八</string>
+    <string name="choose19">第十九</string>
+    <string name="choose20">第二十</string>
+    <string name="choose21">第二十一</string>
+    <string name="choose22">第二十二</string>
+    <string name="choose23">第二十三</string>
+    <string name="choose24">第二十四</string>
+    <string name="choose25">第二十五</string>
+    <string name="choose26">第二十六</string>
+    <string name="choose27">第二十七</string>
+    <string name="choose28">第二十八</string>
+    <string name="choose29">第二十九</string>
+    <string name="choose30">第三十</string>
+    <string name="ok">確定</string>
+</resources>

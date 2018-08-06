@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/confirmNoDialogLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:paddingLeft="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10sp"
+                android:text="@string/audit_resname"/>
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.74"
+                android:text="TextView"
+                android:paddingLeft="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16sp"
+                android:text="@string/audit_email" />
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.80"
+                android:paddingLeft="10sp"
+                android:text="TextView" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                style="?textContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7sp"
+                android:text="@string/audit_reason"
+                android:layout_weight="0.09" />
+
+            <EditText
+                android:id="@+id/enterreason"
+                android:layout_width="191dp"
+                android:layout_height="138dp"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.89"
+                android:text="TextView"
+                android:visibility="invisible" />
+
+            <Button
+                style="?textContent"
+                android:id="@+id/sendemail"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:text="@string/audit_send"/>
+
+            <Button
+                style="?textContent"
+                android:id="@+id/cencel_btn"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:text="@string/audit_cancel" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

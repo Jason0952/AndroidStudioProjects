@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:text="@string/restaurant_type"
+            android:textColor="#303f9f" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/category_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:textColor="#303f9f"
+            android:text="@string/area1" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/area_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:textColor="#303f9f"
+            android:text="@string/adderss" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/address_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:textColor="#303f9f"
+            android:text="@string/transport"/>
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/transport_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:textColor="#303f9f"
+            android:text="@string/telephone" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/telephone_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:textColor="#303f9f"
+            android:text="@string/time" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/time_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:text="@string/sit"
+            android:textColor="#303f9f" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/sit_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:textColor="#303f9f"
+            android:text="@string/remarks" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/remarks_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+        <ImageView
+            android:layout_width="369dp"
+            android:layout_height="1dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            style="?textContent"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="5sp"
+            android:textColor="#303f9f"
+            android:text="@string/about" />
+
+        <TextView
+            style="?textContent"
+            android:id="@+id/about_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5sp"
+            android:paddingTop="3sp" />
+
+    </LinearLayout>
+
+</ScrollView>

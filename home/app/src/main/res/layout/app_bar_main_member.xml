@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/member_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/memberContentMain"
+        layout="@layout/content_main"
+        android:visibility="visible"/>
+
+    <include
+        android:id="@+id/memberSearch"
+        layout="@layout/common_search"
+        android:visibility="gone"/>
+        <include
+            android:id="@+id/memberSearchResult"
+            layout="@layout/common_search_card_view"
+            android:visibility="gone"/>
+            <include
+                android:id="@+id/memberSearchDetail"
+                layout="@layout/member_search_information"
+                android:visibility="gone"/>
+
+    <include
+        android:id="@+id/memberPromotions"
+        layout="@layout/member_promotions_card_view"
+        android:visibility="gone"/>
+        <include
+            android:id="@+id/memberPromotionsDetail"
+            layout="@layout/member_promotions_information"
+            android:visibility="gone"/>
+    <!--add -->
+    <include
+        android:id="@+id/memberTurntable"
+        layout="@layout/member_turntable"
+        android:visibility="gone"/>
+        <include
+            android:id="@+id/memberTurntableResult"
+            layout="@layout/member_turntable_result"
+            android:visibility="gone"/>
+            <include
+                android:id="@+id/memberTurntableDetail"
+                layout="@layout/member_search_information"
+                android:visibility="gone"/>
+
+    <include
+        android:id="@+id/favorite"
+        layout="@layout/member_favorite_card_view"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/record"
+        layout="@layout/member_record_card_view"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/memberSetting"
+        layout="@layout/common_setting"
+        android:visibility="gone"/>
+        <include
+            android:id="@+id/memberOpinion"
+            layout="@layout/common_opinion"
+            android:visibility="gone"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/member_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+
+</android.support.design.widget.CoordinatorLayout>

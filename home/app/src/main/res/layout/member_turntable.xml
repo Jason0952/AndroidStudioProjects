@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:visibility="invisible" />
+
+    <TextView
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:gravity="center"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="@string/area" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="40sp"
+        android:paddingRight="40sp"
+        android:weightSum="2"
+        android:layout_weight="0.09">
+
+        <Spinner
+            android:id="@+id/areaselect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/regionselect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:visibility="invisible" />
+
+    <TextView
+        style="?textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:gravity="center"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="@string/category"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:weightSum="3"
+        android:layout_weight="0.05">
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/american"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:textOn="@string/american"
+            android:textOff="@string/american"
+            android:background="@drawable/searchselected" />
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/japan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/searchselected"
+            android:textOn="@string/japan"
+            android:textOff="@string/japan" />
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/korea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/searchselected"
+            android:textOn="@string/korea"
+            android:textOff="@string/korea" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:weightSum="3"
+        android:layout_weight="0.05">
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/hongkong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/searchselected"
+            android:textOn="@string/hongkong"
+            android:textOff="@string/hongkong" />
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/italy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/searchselected"
+            android:textOff="@string/italy"
+            android:textOn="@string/italy" />
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/searchselected"
+            android:textOn="@string/chinese"
+            android:textOff="@string/chinese" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:weightSum="3"
+        android:layout_weight="0.05">
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/dessert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/searchselected"
+            android:textOff="@string/dessert"
+            android:textOn="@string/dessert" />
+
+        <ToggleButton
+            style="?textContent"
+            android:id="@+id/ice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/searchselected"
+            android:textOff="@string/ice"
+            android:textOn="@string/ice" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/searchselected"
+            android:textSize="15sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:weightSum="3">
+
+        <Button
+            style="?textContent"
+            android:id="@+id/search_turntable_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/restaurantsearch"/>
+    </LinearLayout>
+
+
+</LinearLayout>

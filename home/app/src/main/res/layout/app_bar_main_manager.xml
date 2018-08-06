@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.home.member.memberAcitivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/manager_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/managerContentMain"
+        layout="@layout/content_main"
+        android:visibility="visible"/>
+
+    <include
+        android:id="@+id/managerAudit"
+        layout="@layout/manager_audit_card_view"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/managerSearch"
+        layout="@layout/common_search"
+        android:visibility="gone"/>
+        <include
+            android:id="@+id/managerSearchResult"
+            layout="@layout/common_search_card_view"
+            android:visibility="gone"/>
+            <include
+                android:id="@+id/managerSearchDetail"
+                layout="@layout/manager_search_information"
+                android:visibility="gone"/>
+
+    <include
+        android:id="@+id/managerRecommed"
+        layout="@layout/manager_recommed_card_view"
+        android:visibility="gone"/>
+
+        <include
+            android:id="@+id/managerRecommedContent"
+            layout="@layout/manager_recommed_content_card_view"
+            android:visibility="gone"/>
+
+            <include
+                android:id="@+id/managerRecommedModify"
+                layout="@layout/manager_recommed_modify"
+                android:visibility="gone"/>
+
+            <include
+                android:id="@+id/managerRecommedAdd"
+                layout="@layout/manager_recommed_add"
+                android:visibility="gone"/>
+
+    <include
+        android:id="@+id/managerAdvice"
+        layout="@layout/manager_advice_card_view"
+        android:visibility="gone"/>
+
+        <include
+            android:id="@+id/managerAdviceContent"
+            layout="@layout/manager_advice_content"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/managerSetting"
+            layout="@layout/manager_setting"
+            android:visibility="gone"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/manager_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>
